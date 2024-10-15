@@ -17,8 +17,3 @@ test("renders greeting message with name", () => {
   // Assert: check if the element is in the document
   expect(greetingElement).toBeInTheDocument();
 });
-
-
-test("", () => {
-
-});
