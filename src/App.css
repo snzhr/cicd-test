@@ -1,0 +1,45 @@
+.questions-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.question-card{
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
+.question-card:hover{
+    background-color: gainsboro ;
+}
+
+.question-card.done{
+    background-color: red;
+}
+
+.question-page{
+    padding: 20px;
+}
+
+.question-page h2{
+    text-align: center;
+}
+
+
+.option{
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: gainsboro ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
